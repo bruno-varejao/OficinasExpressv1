@@ -1,0 +1,2 @@
+variant=\\\"ghost\\\"
+variant=\"ghost\"

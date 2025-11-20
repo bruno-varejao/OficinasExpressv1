@@ -1,0 +1,31 @@
+{
+  "name": "cc-bridge-server",
+  "version": "1.0.0",
+  "description": "Bridge Server para leitura de Cartão de Cidadão português - OficinasExpress",
+  "main": "bridge-server-example.js",
+  "scripts": {
+    "start": "node bridge-server-example.js",
+    "dev": "nodemon bridge-server-example.js",
+    "test": "node test-connection.js"
+  },
+  "keywords": [
+    "cartao-cidadao",
+    "citizen-card",
+    "portugal",
+    "autenticacao-gov",
+    "pteid",
+    "oficinasexpress"
+  ],
+  "author": "OficinasExpress",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
